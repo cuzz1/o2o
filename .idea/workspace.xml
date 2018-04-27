@@ -8,15 +8,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff17b37f-0be0-4ada-975d-9bd07d2101c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/ShopExecution.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enmus/ShopStateEnum.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exceptiopns/ShopOperationException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/HttpServletRequestUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopAdminController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/customerbind.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/mypoint.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/myrecord.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/pointrecord.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/productdetail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shopdetail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/frontend/shoplist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/awarddelivercheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/awardedit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/awardmanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/changepsw.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/forgetpsw.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/myshops.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/ownerbind.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/ownerlogin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productbuycheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productcategorymanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productedit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/productmanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopauthedit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopauthmanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopedit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist#U526f#U672c.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shoplist.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/usershopcheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/areamanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/headlinemanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/main.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/personinfomanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/shopcategorymanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/shopmanage.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/superadmin/top.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopServiceTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/superadmin/AreaController.java" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/superadmin/AreaController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/superadmin/AreaController.class" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/web/superadmin/AreaController.class" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/project2.iml" afterPath="$PROJECT_DIR$/project2.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/dao/ShopDao.class" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/dao/ShopDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AreaDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/AreaDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopDao.xml" />
       <change beforePath="$PROJECT_DIR$/target/o2o.war" afterPath="$PROJECT_DIR$/target/o2o.war" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/web/superadmin/AreaController.class" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/web/superadmin/AreaController.class" />
+      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/AreaDao.xml" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/AreaDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/BaseTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/AreaDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/dao/ShopDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/imooc/o2o/service/AreaServiceTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,63 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <file leaf-file-name="ShopManagementController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-              <folding>
-                <marker date="1524560723536" expanded="true" signature="404:827" ph="INSERT INTO tb_shop" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShopDaoTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,43 +95,408 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapperProxy.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <file leaf-file-name="ShopAdminController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapperMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/AreaDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AreaDao.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+            <state relative-caret-position="242">
+              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <marker date="1524409234546" expanded="true" signature="285:403" ph="SELECT area_... tb_area" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myshops.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/myshops.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-545">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1518">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectMapper.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="1089" column="17" lean-forward="false" selection-start-line="1089" selection-start-column="17" selection-end-line="1089" selection-end-column="17" />
+              <folding>
+                <marker date="1524404230447" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1524404230447" expanded="false" signature="154:5657" ph="..." />
+                <marker date="1524404230447" expanded="true" signature="6907:7017" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="7059:7154" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="7201:8397" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="8503:10226" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="10286:10297" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="10333:10339" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="10372:10470" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="10523:10745" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="10814:10825" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="10863:10869" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="11037:11143" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="11210:11221" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="11259:11265" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="11354:11416" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="11521:11589" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="11619:11630" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="11660:11666" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="11722:19065" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="12592:19004" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="12647:12674" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="12709:12731" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="12796:12823" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="12848:12870" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="12927:12954" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="12992:13014" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="13077:13104" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="13142:13164" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="13236:13263" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="13301:13323" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="13393:13420" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="13458:13480" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="13537:13564" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="13602:13624" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="13720:13806" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="13905:13991" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="14072:14166" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="14234:14509" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="14583:14861" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="14958:15237" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="15301:15454" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="15521:15677" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="15770:15927" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="16016:16295" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="16368:16578" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="16668:16950" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="17027:17282" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="17372:17687" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="17777:18092" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="18161:18188" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="18233:18255" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="18329:18422" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="18515:18611" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="18717:18803" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="18886:18986" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="19126:19356" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="19424:19624" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="19670:19681" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="19719:19725" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="19795:20185" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="20235:20246" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="20299:20305" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="20362:20373" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="20406:20412" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="20473:20484" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="20519:20525" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="20588:20599" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="20635:20641" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="20709:20774" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="20827:20838" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="20869:20875" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="20952:21018" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="21073:21084" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="21116:21122" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="21186:21261" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="21335:21419" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="21493:21583" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="21650:22018" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="22071:22082" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="22125:22131" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="22160:22171" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="22203:22209" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="22215:22233" ph="/**...*/" />
+                <marker date="1524404230447" expanded="false" signature="22323:22334" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="22363:22369" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="22375:22393" ph="/**...*/" />
+                <marker date="1524404230447" expanded="false" signature="22490:22501" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="22536:22542" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="22599:22678" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="22684:22702" ph="/**...*/" />
+                <marker date="1524404230447" expanded="false" signature="22780:22791" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="22814:22820" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="22885:23061" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="23152:23386" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="23435:23446" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="23475:23481" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="23547:23762" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="23841:24017" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="24146:24344" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="24422:24596" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="24660:24737" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="24803:24911" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="24970:25089" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="25157:25277" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="25325:25425" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="25503:25574" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="25676:26135" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="26254:26584" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="26632:26643" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="26699:26705" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="26778:26960" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="27012:27023" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="27075:27081" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="27135:27146" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="27196:27202" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="27267:27341" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="27382:27393" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="27418:27424" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="27480:27685" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="27728:27739" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="27781:27787" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="27832:27843" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="27895:27901" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="27961:28064" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="28134:28244" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="28293:28412" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="28478:28552" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="28558:28576" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="28651:28749" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="28824:28943" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="29003:29177" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="29241:29313" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="29350:29361" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="29386:29392" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="29398:29416" ph="/**...*/" />
+                <marker date="1524404230447" expanded="false" signature="29472:29483" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="29508:29514" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="29577:29769" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="29808:29819" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="29868:29874" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="29941:30117" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="30198:30277" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="30328:30339" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="30369:30375" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="30421:30595" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="30646:30822" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="30869:30880" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="30926:30932" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="31000:31354" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="31407:31581" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="31635:31815" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="31869:31880" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="31926:31932" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="32007:32153" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="32210:32309" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="32397:32503" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="32561:32663" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="32752:32861" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="32917:32928" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="32976:32982" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="33059:33211" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="33276:33385" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="33477:33587" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="33653:33765" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="33858:33971" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="34051:34134" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="34234:34309" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="34401:34706" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="34799:35105" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="35188:35269" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="35372:35447" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="35542:35853" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="35949:36261" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="36302:36313" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="36351:36357" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="36481:36600" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="36735:36857" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="36991:37087" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="37211:37297" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="37400:37844" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="37973:38036" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="38161:38489" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="38614:38700" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="38836:38925" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="39016:39191" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="39276:39450" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="39541:39721" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="39812:39992" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="40078:40255" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="40342:40521" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="40647:41284" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="41395:41658" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="41769:42032" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="42074:42085" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="42150:42156" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="42196:42207" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="42271:42277" ph=" }" />
+                <marker date="1524404230447" expanded="false" signature="42325:42336" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="42387:42393" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="42487:43217" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="43315:44002" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="44051:44176" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="44259:44368" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="44419:44580" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="44665:44810" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="44930:45056" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="45184:45313" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="45433:45526" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="45645:45771" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="45898:46027" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="46146:46239" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="46365:46495" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="46629:46762" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="46888:46985" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="47107:47233" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="47363:47492" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="47614:47707" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="47834:47960" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="48095:48224" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="48351:48444" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="48566:48692" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="48835:48974" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="49104:49233" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="49384:49526" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="49648:49741" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="49884:49990" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="50073:50199" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="50282:50375" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="50501:50616" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="50743:50851" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="50929:51037" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="51156:51243" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="51327:51754" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="51837:52327" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="52361:52372" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="52426:52432" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="52495:52579" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="52671:52760" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="52807:52818" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="52881:52887" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="52956:53054" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="53109:53269" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="53332:53492" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="53547:53648" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="53699:53877" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="53936:54101" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54165:54263" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54317:54435" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54497:54587" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54646:54730" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54788:54870" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="54876:54894" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="54969:55129" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="55135:55153" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="55236:55396" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="55402:55420" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="55495:55596" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="55631:55732" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="55797:55883" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="55979:56070" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="56136:56350" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="56401:56537" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="56588:56757" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="56816:56985" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="57036:57047" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="57111:57117" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="57171:57345" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="57413:57553" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="57609:57696" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="57758:57850" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="57908:57992" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="57998:58016" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="58079:58215" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="58221:58239" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="58302:58471" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="58477:58495" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="58566:58735" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="58839:58960" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="59075:59176" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="59280:59368" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="59472:61240" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="61246:61264" ph="/**...*/" />
+                <marker date="1524404230447" expanded="true" signature="61362:61463" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="61582:61675" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="61794:62037" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="62127:62223" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="62321:62854" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="62979:63370" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="63491:63922" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="64038:64137" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="64251:65111" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="65205:66867" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="66942:67264" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="67452:68746" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="68886:69406" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="69466:69724" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="69737:70079" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="70187:72066" ph="{...}" />
+                <marker date="1524404230447" expanded="false" signature="70382:70397" ph=" { " />
+                <marker date="1524404230447" expanded="false" signature="70418:70428" ph=" }" />
+                <marker date="1524404230447" expanded="true" signature="70565:70687" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="70818:70938" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="70986:72060" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="72105:72268" ph="{...}" />
+                <marker date="1524404230447" expanded="true" signature="72251:72262" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpServletRequestUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/HttpServletRequestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-257">
+              <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1166">
+              <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,9 +508,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>T</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ShopOperationException</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -173,20 +549,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/AreaDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/AreaDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/superadmin/AreaController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/ShopExecution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/enmus/ShopStateEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/exceptiopns/ShopOperationException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/Shop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/HttpServletRequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopAdminController.java" />
       </list>
     </option>
   </component>
@@ -210,11 +598,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-51" />
-    <option name="y" value="4" />
-    <option name="width" value="1620" />
-    <option name="height" value="806" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="23" />
+    <option name="width" value="1551" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -234,6 +621,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,15 +653,27 @@
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shopadmin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
@@ -285,49 +686,41 @@
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,17 +730,18 @@
     <property name="create.test.in.the.same.root" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\project2\src" />
+      <recent name="F:\java\project2\src\main" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.imooc.o2o" />
       <recent name="com.imooc.o2o.service" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\project2\src\main\webapp\WEB-INF" />
       <recent name="F:\java\project2\src\main\resources\spring" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\java\project2\src" />
-      <recent name="F:\java\project2\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,7 +756,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShopDaoTest.testInsertShop">
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -383,56 +777,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="AreaDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.o2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="project2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.AreaDaoTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="AreaDaoTest.testBQueryArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.o2o.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="project2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.AreaDaoTest" />
-      <option name="METHOD_NAME" value="testBQueryArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="AreaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -497,6 +841,56 @@
       <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
       <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.ShopDaoTest" />
       <option name="METHOD_NAME" value="testInsertShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ShopDaoTest.testUpdateShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.o2o.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="project2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.o2o.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.dao.ShopDaoTest" />
+      <option name="METHOD_NAME" value="testUpdateShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="ShopServiceTest.testAddShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.o2o.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="project2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.imooc.o2o.service" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.o2o.service.ShopServiceTest" />
+      <option name="METHOD_NAME" value="testAddShop" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -798,19 +1192,19 @@
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat8" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.o2o" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AreaDaoTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.testBQueryArea" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.AreaServiceTest" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ShopDaoTest" />
-      <item index="7" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testInsertShop" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AreaServiceTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopDaoTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testInsertShop" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
+      <item index="7" class="java.lang.String" itemvalue="JUnit.ShopServiceTest.testAddShop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testInsertShop" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopDaoTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AreaServiceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AreaDaoTest.testBQueryArea" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AreaDaoTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ShopServiceTest.testAddShop" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testUpdateShop" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopDaoTest.testInsertShop" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopDaoTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AreaServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -832,50 +1226,53 @@
       <workItem from="1524454364767" duration="6195000" />
       <workItem from="1524462667650" duration="886000" />
       <workItem from="1524470755801" duration="4149000" />
-      <workItem from="1524554944099" duration="7098000" />
+      <workItem from="1524554944099" duration="8900000" />
+      <workItem from="1524740700226" duration="8839000" />
+      <workItem from="1524798280232" duration="16717000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AreaServiceTest - 2018.04.23 at 12h 48m 51s.xml">
-      <configuration name="AreaServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AreaServiceTest - 2018.04.23 at 13h 47m 54s.xml">
-      <configuration name="AreaServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopDaoTest - 2018.04.24 at 16h 52m 34s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopDaoTest - 2018.04.24 at 16h 59m 28s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopDaoTest - 2018.04.24 at 17h 01m 19s.xml">
-      <configuration name="ShopDaoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.24 at 17h 01m 24s.xml">
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 38m 43s.xml">
       <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.24 at 17h 05m 29s.xml">
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 41m 05s.xml">
       <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.24 at 17h 06m 25s.xml">
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 43m 25s.xml">
       <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.24 at 17h 14m 07s.xml">
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 45m 30s.xml">
       <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.24 at 17h 14m 49s.xml">
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 46m 02s.xml">
       <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 47m 36s.xml">
+      <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopDaoTest_testInsertShop - 2018.04.26 at 19h 48m 09s.xml">
+      <configuration name="ShopDaoTest.testInsertShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopDaoTest_testUpdateShop - 2018.04.26 at 19h 51m 01s.xml">
+      <configuration name="ShopDaoTest.testUpdateShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopDaoTest_testUpdateShop - 2018.04.26 at 19h 52m 49s.xml">
+      <configuration name="ShopDaoTest.testUpdateShop" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShopServiceTest_testAddShop - 2018.04.27 at 16h 20m 31s.xml">
+      <configuration name="ShopServiceTest.testAddShop" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40422000" />
+    <option name="totallyTimeSpent" value="67780000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-51" y="4" width="1620" height="806" extended-state="1" />
+    <frame x="23" y="0" width="1551" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.1102096" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -892,10 +1289,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69529986" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6158833" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.8897904" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11831442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25581396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494929" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -944,228 +1341,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/AreaServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3498">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding>
-            <marker date="1524409234546" expanded="true" signature="285:403" ph="SELECT area_... tb_area" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/AreaDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/AreaDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/LocalAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/PersonInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/WechatAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/HeadLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/ShopCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-854">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/ProductCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/ProductImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="40" column="18" lean-forward="false" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/BaseTest.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/AreaDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="115" column="42" lean-forward="false" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,22 +1358,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/AreaDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5896">
+          <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <marker date="1524404248082" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1524404248082" expanded="false" signature="168:361" ph="..." />
-            <marker date="1524404248082" expanded="true" signature="363:536" ph="@{...}" />
+            <marker date="1524741097159" expanded="true" signature="286:404" ph="SELECT area_... tb_area" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="220">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="91" lean-forward="false" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+          <folding>
+            <marker date="1524743653908" expanded="true" signature="420:843" ph="INSERT INTO tb_shop" />
+            <marker date="1524743653908" expanded="true" signature="973:987" ph="UPDATE tb_shop... " />
+            <marker date="1524743653908" expanded="true" signature="973:1828" ph="UPDATE tb_shop... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3234">
+          <caret line="147" column="2" lean-forward="false" selection-start-line="147" selection-start-column="2" selection-end-line="147" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14652">
+          <caret line="712" column="23" lean-forward="false" selection-start-line="712" selection-start-column="23" selection-end-line="712" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40766">
+          <caret line="1924" column="18" lean-forward="false" selection-start-line="1924" selection-start-column="18" selection-end-line="1924" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/ShopExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#427#428#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#536#537#0" expanded="false" />
+            <element signature="e#568#569#0" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#689#690#0" expanded="false" />
+            <element signature="e#717#718#0" expanded="false" />
+            <element signature="e#756#757#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#860#861#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
+            <element signature="e#952#953#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1046#1047#0" expanded="false" />
+            <element signature="e#1078#1079#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="148" column="13" lean-forward="false" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/enmus/ShopStateEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#453#454#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.7.RELEASE/spring-beans-4.3.7.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1209,8 +1526,110 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="56" lean-forward="false" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="166">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="67" lean-forward="false" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <marker date="1524404226653" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1524404226653" expanded="false" signature="149:1398" ph="..." />
+            <marker date="1524404226653" expanded="true" signature="2116:2123" ph="{}" />
+            <marker date="1524404226653" expanded="false" signature="2175:2186" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="2217:2223" ph=" }" />
+            <marker date="1524404226653" expanded="false" signature="2276:2287" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="2318:2324" ph=" }" />
+            <marker date="1524404226653" expanded="true" signature="2406:2461" ph="{...}" />
+            <marker date="1524404226653" expanded="false" signature="2518:2529" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="2563:2569" ph=" }" />
+            <marker date="1524404226653" expanded="true" signature="2575:2593" ph="/**...*/" />
+            <marker date="1524404226653" expanded="true" signature="2687:2748" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="2827:2900" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="2906:2924" ph="/**...*/" />
+            <marker date="1524404226653" expanded="true" signature="3015:3074" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="3151:3222" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="3308:3387" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="3466:3527" ph="{...}" />
+            <marker date="1524404226653" expanded="false" signature="3569:3580" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="3601:3607" ph=" }" />
+            <marker date="1524404226653" expanded="false" signature="3656:3667" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="3693:3699" ph=" }" />
+            <marker date="1524404226653" expanded="false" signature="3766:3777" ph=" { " />
+            <marker date="1524404226653" expanded="false" signature="3812:3818" ph=" }" />
+            <marker date="1524404226653" expanded="true" signature="3874:3961" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="4047:4054" ph="{}" />
+            <marker date="1524404226653" expanded="true" signature="4139:5021" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="5070:6256" ph="{...}" />
+            <marker date="1524404226653" expanded="true" signature="6341:6844" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="43" column="55" lean-forward="false" selection-start-line="43" selection-start-column="55" selection-end-line="43" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/Shop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1219,25 +1638,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar!/org/apache/commons/fileupload/FileItemHeadersSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-fileupload/commons-fileupload/1.3.2/commons-fileupload-1.3.2.jar!/org/apache/commons/fileupload/FileItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <marker date="1524404249812" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1524404249812" expanded="false" signature="165:610" ph="..." />
+            <marker date="1524404249812" expanded="true" signature="938:1024" ph="{...}" />
+            <marker date="1524404249812" expanded="false" signature="1065:1076" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="1097:1103" ph=" }" />
+            <marker date="1524404249812" expanded="false" signature="1166:1177" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="1218:1224" ph=" }" />
+            <marker date="1524404249812" expanded="false" signature="1253:1264" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="1300:1306" ph=" }" />
+            <marker date="1524404249812" expanded="true" signature="1348:1797" ph="{...}" />
+            <marker date="1524404249812" expanded="false" signature="1833:1844" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="1882:1888" ph=" }" />
+            <marker date="1524404249812" expanded="false" signature="1918:1929" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="1952:1958" ph=" }" />
+            <marker date="1524404249812" expanded="false" signature="1985:1996" ph=" { " />
+            <marker date="1524404249812" expanded="false" signature="2013:2019" ph=" }" />
+            <marker date="1524404249812" expanded="true" signature="2050:2314" ph="{...}" />
+            <marker date="1524404249812" expanded="true" signature="2375:2686" ph="{...}" />
+            <marker date="1524404249812" expanded="true" signature="2768:4085" ph="{...}" />
+            <marker date="1524404249812" expanded="true" signature="4123:4419" ph="{...}" />
+            <marker date="1524404249812" expanded="true" signature="4463:4725" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+          <folding>
+            <marker date="1524404249812" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1524404249812" expanded="false" signature="157:280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.7.RELEASE/spring-core-4.3.7.RELEASE.jar!/org/springframework/core/io/InputStreamSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/exceptiopns/ShopOperationException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#171#172#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/service/ShopServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,96 +1740,421 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#906#922#0" expanded="true" />
-            <element signature="e#965#971#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="50" column="52" lean-forward="false" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AreaDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding>
-            <marker date="1524409234546" expanded="true" signature="285:403" ph="SELECT area_... tb_area" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/AreaDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/ShopDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.7.RELEASE/spring-tx-4.3.7.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="-122">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ShopDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="176">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
-            <marker date="1524560723536" expanded="true" signature="404:827" ph="INSERT INTO tb_shop" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="1166">
+          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/SSM/tmall_ssm_altogether/jdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="1154" column="26" lean-forward="false" selection-start-line="1154" selection-start-column="26" selection-end-line="1154" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/HttpServletRequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.7/jackson-databind-2.8.7.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1089" column="17" lean-forward="false" selection-start-line="1089" selection-start-column="17" selection-end-line="1089" selection-end-column="17" />
+          <folding>
+            <marker date="1524404230447" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1524404230447" expanded="false" signature="154:5657" ph="..." />
+            <marker date="1524404230447" expanded="true" signature="6907:7017" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="7059:7154" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="7201:8397" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="8503:10226" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="10286:10297" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="10333:10339" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="10372:10470" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="10523:10745" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="10814:10825" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="10863:10869" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="11037:11143" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="11210:11221" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="11259:11265" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="11354:11416" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="11521:11589" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="11619:11630" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="11660:11666" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="11722:19065" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="12592:19004" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="12647:12674" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="12709:12731" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="12796:12823" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="12848:12870" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="12927:12954" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="12992:13014" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="13077:13104" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="13142:13164" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="13236:13263" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="13301:13323" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="13393:13420" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="13458:13480" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="13537:13564" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="13602:13624" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="13720:13806" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="13905:13991" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="14072:14166" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="14234:14509" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="14583:14861" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="14958:15237" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="15301:15454" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="15521:15677" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="15770:15927" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="16016:16295" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="16368:16578" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="16668:16950" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="17027:17282" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="17372:17687" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="17777:18092" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="18161:18188" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="18233:18255" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="18329:18422" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="18515:18611" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="18717:18803" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="18886:18986" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="19126:19356" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="19424:19624" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="19670:19681" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="19719:19725" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="19795:20185" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="20235:20246" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="20299:20305" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="20362:20373" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="20406:20412" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="20473:20484" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="20519:20525" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="20588:20599" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="20635:20641" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="20709:20774" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="20827:20838" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="20869:20875" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="20952:21018" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="21073:21084" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="21116:21122" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="21186:21261" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="21335:21419" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="21493:21583" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="21650:22018" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="22071:22082" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="22125:22131" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="22160:22171" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="22203:22209" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="22215:22233" ph="/**...*/" />
+            <marker date="1524404230447" expanded="false" signature="22323:22334" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="22363:22369" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="22375:22393" ph="/**...*/" />
+            <marker date="1524404230447" expanded="false" signature="22490:22501" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="22536:22542" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="22599:22678" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="22684:22702" ph="/**...*/" />
+            <marker date="1524404230447" expanded="false" signature="22780:22791" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="22814:22820" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="22885:23061" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="23152:23386" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="23435:23446" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="23475:23481" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="23547:23762" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="23841:24017" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="24146:24344" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="24422:24596" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="24660:24737" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="24803:24911" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="24970:25089" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="25157:25277" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="25325:25425" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="25503:25574" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="25676:26135" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="26254:26584" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="26632:26643" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="26699:26705" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="26778:26960" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="27012:27023" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="27075:27081" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="27135:27146" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="27196:27202" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="27267:27341" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="27382:27393" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="27418:27424" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="27480:27685" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="27728:27739" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="27781:27787" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="27832:27843" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="27895:27901" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="27961:28064" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="28134:28244" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="28293:28412" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="28478:28552" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="28558:28576" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="28651:28749" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="28824:28943" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="29003:29177" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="29241:29313" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="29350:29361" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="29386:29392" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="29398:29416" ph="/**...*/" />
+            <marker date="1524404230447" expanded="false" signature="29472:29483" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="29508:29514" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="29577:29769" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="29808:29819" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="29868:29874" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="29941:30117" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="30198:30277" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="30328:30339" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="30369:30375" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="30421:30595" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="30646:30822" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="30869:30880" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="30926:30932" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="31000:31354" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="31407:31581" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="31635:31815" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="31869:31880" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="31926:31932" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="32007:32153" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="32210:32309" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="32397:32503" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="32561:32663" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="32752:32861" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="32917:32928" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="32976:32982" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="33059:33211" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="33276:33385" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="33477:33587" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="33653:33765" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="33858:33971" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="34051:34134" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="34234:34309" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="34401:34706" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="34799:35105" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="35188:35269" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="35372:35447" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="35542:35853" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="35949:36261" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="36302:36313" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="36351:36357" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="36481:36600" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="36735:36857" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="36991:37087" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="37211:37297" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="37400:37844" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="37973:38036" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="38161:38489" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="38614:38700" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="38836:38925" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="39016:39191" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="39276:39450" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="39541:39721" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="39812:39992" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="40078:40255" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="40342:40521" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="40647:41284" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="41395:41658" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="41769:42032" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="42074:42085" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="42150:42156" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="42196:42207" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="42271:42277" ph=" }" />
+            <marker date="1524404230447" expanded="false" signature="42325:42336" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="42387:42393" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="42487:43217" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="43315:44002" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="44051:44176" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="44259:44368" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="44419:44580" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="44665:44810" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="44930:45056" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="45184:45313" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="45433:45526" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="45645:45771" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="45898:46027" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="46146:46239" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="46365:46495" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="46629:46762" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="46888:46985" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="47107:47233" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="47363:47492" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="47614:47707" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="47834:47960" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="48095:48224" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="48351:48444" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="48566:48692" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="48835:48974" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="49104:49233" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="49384:49526" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="49648:49741" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="49884:49990" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="50073:50199" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="50282:50375" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="50501:50616" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="50743:50851" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="50929:51037" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="51156:51243" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="51327:51754" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="51837:52327" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="52361:52372" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="52426:52432" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="52495:52579" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="52671:52760" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="52807:52818" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="52881:52887" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="52956:53054" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="53109:53269" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="53332:53492" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="53547:53648" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="53699:53877" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="53936:54101" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54165:54263" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54317:54435" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54497:54587" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54646:54730" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54788:54870" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="54876:54894" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="54969:55129" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="55135:55153" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="55236:55396" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="55402:55420" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="55495:55596" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="55631:55732" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="55797:55883" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="55979:56070" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="56136:56350" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="56401:56537" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="56588:56757" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="56816:56985" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="57036:57047" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="57111:57117" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="57171:57345" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="57413:57553" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="57609:57696" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="57758:57850" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="57908:57992" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="57998:58016" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="58079:58215" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="58221:58239" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="58302:58471" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="58477:58495" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="58566:58735" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="58839:58960" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="59075:59176" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="59280:59368" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="59472:61240" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="61246:61264" ph="/**...*/" />
+            <marker date="1524404230447" expanded="true" signature="61362:61463" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="61582:61675" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="61794:62037" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="62127:62223" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="62321:62854" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="62979:63370" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="63491:63922" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="64038:64137" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="64251:65111" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="65205:66867" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="66942:67264" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="67452:68746" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="68886:69406" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="69466:69724" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="69737:70079" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="70187:72066" ph="{...}" />
+            <marker date="1524404230447" expanded="false" signature="70382:70397" ph=" { " />
+            <marker date="1524404230447" expanded="false" signature="70418:70428" ph=" }" />
+            <marker date="1524404230447" expanded="true" signature="70565:70687" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="70818:70938" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="70986:72060" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="72105:72268" ph="{...}" />
+            <marker date="1524404230447" expanded="true" signature="72251:72262" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1518">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/myshops.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
           </folding>
         </state>
       </provider>
