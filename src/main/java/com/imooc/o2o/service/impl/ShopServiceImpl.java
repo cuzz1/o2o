@@ -13,6 +13,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
+import java.io.File;
+import java.io.InputStream;
 import java.util.Date;
 
 @Service
@@ -23,7 +25,7 @@ public class ShopServiceImpl implements ShopService{
     @Override
     // 事务的支持
     @Transactional
-    public ShopExecution addShop(Shop shop, CommonsMultipartFile shopImg) {
+    public ShopExecution addShop(Shop shop, InputStream shopImgInputStream, String fileName) {
         // 空值判断
         if (shop == null) {
             return new ShopExecution(ShopStateEnum.NULL_SHOP);
@@ -40,21 +42,21 @@ public class ShopServiceImpl implements ShopService{
             // 判断是否插入成功
             if (effectedNum <= 0) {
                 throw new ShopOperationException("店铺创建失败");
-            } else {
-                if (shopImg != null) {
-                    // 存储图片
-                    try {
-                        addShopImg(shop, shopImg);
-                    } catch (Exception e) {
-                        throw new ShopOperationException("addShopImg error" + e.getMessage());
-                    }
-                    // 更新图片信息
-                    effectedNum = shopDao.updateShop(shop);
-                    if (effectedNum <= 0) {
-                        throw new ShopOperationException("更新图片地址失败");
-                    }
-
-                }
+//            } else {
+//                if (shopImgInputSream != null) {
+//                    // 存储图片
+//                    try {
+//                        addShopImg(shop, shopImgInputSream);
+//                    } catch (Exception e) {
+//                        throw new ShopOperationException("addShopImg error" + e.getMessage());
+//                    }
+//                    // 更新图片信息
+//                    effectedNum = shopDao.updateShop(shop);
+//                    if (effectedNum <= 0) {
+//                        throw new ShopOperationException("更新图片地址失败");
+//                    }
+//
+//                }
             }
 
         } catch (Exception e) {
@@ -65,10 +67,10 @@ public class ShopServiceImpl implements ShopService{
         return new ShopExecution(ShopStateEnum.CHECK, shop);
     }
 
-    private void addShopImg(Shop shop, CommonsMultipartFile  shopImg) {
+    private void addShopImg(Shop shop, InputStream shopImgInputSream, String fileName) {
         // 获取shop图片目录的相对值路径
         String dest = PathUtil.getShopImagePath(shop.getShopId());
-        String shopImgAddr = ImageUtil.generateThumbnail(shopImg, dest);
+        String shopImgAddr = ImageUtil.generateThumbnail(shopImgInputSream,fileName, dest);
         shop.setShopImg(shopImgAddr);
     }
 }

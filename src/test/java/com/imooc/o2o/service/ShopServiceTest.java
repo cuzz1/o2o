@@ -1,6 +1,7 @@
 package com.imooc.o2o.service;
 
 import com.imooc.o2o.BaseTest;
+import com.imooc.o2o.dto.ShopExecution;
 import com.imooc.o2o.enmus.ShopStateEnum;
 import com.imooc.o2o.entity.Area;
 import com.imooc.o2o.entity.PersonInfo;
@@ -11,6 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.InputStream;
 import java.util.Date;
 
 
@@ -19,7 +23,7 @@ public class ShopServiceTest extends BaseTest {
     private ShopService shopService;
 
     @Test
-    public void testAddShop() {
+    public void testAddShop() throws FileNotFoundException {
         Shop shop = new Shop();
         PersonInfo owner = new PersonInfo();
         Area area = new Area();
@@ -39,7 +43,8 @@ public class ShopServiceTest extends BaseTest {
         shop.setCreateTime(new Date());
         shop.setEnableStatus(1);
         shop.setAdvice(ShopStateEnum.CHECK.getStateInfo());
-        File shopImg = new File("C:\\Users\\my\\Desktop\\QQ图片20180203002936.jpg");
-//        shopService.addShop(shop,shopImg);
+        File shopImg = new File("D:\\123.jpg");
+        InputStream inputStream = new FileInputStream(shopImg);
+        ShopExecution shopExecution = shopService.addShop(shop, inputStream, shopImg.getName());
     }
 }

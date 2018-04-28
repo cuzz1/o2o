@@ -5,6 +5,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -18,16 +19,16 @@ public class ImageUtil {
     /**
      * 创建缩略图
      */
-    public static String generateThumbnail(CommonsMultipartFile thumbnail, String targetAddr) {
+    public static String generateThumbnail(InputStream thumbnail,String fileName, String targetAddr) {
         // 获取图片的随机图片名
         String realFileName = getRandomFileName();
         // 获取图片的拓展名
-        String extension = getFileExtension(thumbnail);
+        String extension = getFileExtension(fileName);
         makeDirPath(targetAddr);
         String relativeAddr = targetAddr + realFileName + extension;
         File dest = new File(getImgBasePath() + relativeAddr);
         try {
-            Thumbnails.of(thumbnail.getInputStream()).size(200, 200).outputQuality(0.25f).toFile(dest);
+            Thumbnails.of(thumbnail).size(200, 200).outputQuality(0.25f).toFile(dest);
         } catch (IOException e) {
             throw new RuntimeException("创建缩略图失败：" + e.toString());
         }
@@ -50,13 +51,12 @@ public class ImageUtil {
 
     /**
      * 获取输入文件流的拓展名
-     * @param cFile
+     * @param fileName
      * @return
      */
-    private static String getFileExtension(CommonsMultipartFile cFile) {
+    private static String getFileExtension(String fileName) {
         // 获取原来的文件名
-        String originalFileName = cFile.getOriginalFilename();
-        return originalFileName.substring(originalFileName.lastIndexOf("."));
+        return fileName.substring(fileName.lastIndexOf("."));
     }
 
     /**
