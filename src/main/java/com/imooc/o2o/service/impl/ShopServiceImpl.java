@@ -42,28 +42,26 @@ public class ShopServiceImpl implements ShopService{
             // 判断是否插入成功
             if (effectedNum <= 0) {
                 throw new ShopOperationException("店铺创建失败");
-//            } else {
-//                if (shopImgInputSream != null) {
-//                    // 存储图片
-//                    try {
-//                        addShopImg(shop, shopImgInputSream);
-//                    } catch (Exception e) {
-//                        throw new ShopOperationException("addShopImg error" + e.getMessage());
-//                    }
-//                    // 更新图片信息
-//                    effectedNum = shopDao.updateShop(shop);
-//                    if (effectedNum <= 0) {
-//                        throw new ShopOperationException("更新图片地址失败");
-//                    }
-//
-//                }
+            } else {
+                if (fileName != null) {
+                    // 存储图片
+                    try {
+                        addShopImg(shop,shopImgInputStream, fileName);
+                    } catch (Exception e) {
+                        throw new ShopOperationException("addShopImg error" + e.getMessage());
+                    }
+                    // 更新图片信息
+                    effectedNum = shopDao.updateShop(shop);
+                    if (effectedNum <= 0) {
+                        throw new ShopOperationException("更新图片地址失败");
+                    }
+
+                }
             }
 
         } catch (Exception e) {
             throw new ShopOperationException("addShop error" + e.getMessage());
         }
-
-
         return new ShopExecution(ShopStateEnum.CHECK, shop);
     }
 

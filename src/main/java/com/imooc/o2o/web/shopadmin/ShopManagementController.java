@@ -74,7 +74,8 @@ public class ShopManagementController {
             return modelMap;
         }
         CommonsMultipartFile shopImg = null;
-        CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver();
+        CommonsMultipartResolver commonsMultipartResolver = new CommonsMultipartResolver(
+                request.getSession().getServletContext());
         if (commonsMultipartResolver.isMultipart(request)) {
             MultipartHttpServletRequest multipartHttpServletRequest = (MultipartHttpServletRequest) request;
             shopImg = (CommonsMultipartFile) multipartHttpServletRequest.getFile("shopImg");
