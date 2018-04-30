@@ -1,11 +1,11 @@
 $(function() {
 
 	var shopId = getQueryString('shopId');
-
+	// var shopId = 23;
 	var isEdit = shopId ? true : false;
 
-	var shopInfoUrl = '/project2/shop/getshopbyid?shopId=1';
-	// var shopInfoUrl = '/project2/shop/getshopbyid?shopId=' + shopId;
+	// var shopInfoUrl = '/project2/shop/getshopbyid?shopId=23';
+	var shopInfoUrl = '/project2/shop/getshopbyid?shopId=' + shopId;
 	var initUrl = '/project2/shop/getshopinitinfo';
 	var editShopUrl = '/project2/shop/registershop';
 	if (isEdit) {
@@ -64,6 +64,9 @@ $(function() {
 
 	$('#submit').click(function() {
 		var shop = {};
+		if (isEdit) {
+			shop.shopId = shopId;
+		}
 
 		shop.shopName = $('#shop-name').val();
 		shop.shopAddr = $('#shop-addr').val();

@@ -5,10 +5,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
-@RequestMapping(value = "shop", method = RequestMethod.GET)
+@RequestMapping(value = "shopadmin", method = RequestMethod.GET)
 public class ShopAdminController {
-    @RequestMapping(value="/shopoperation")
+    @RequestMapping(value="/shopedit")
     public String shopOperation() {
         return "shop/shopedit";
+    }
+
+    @RequestMapping(value="/shoplist")
+    public String shopList() {
+       return "shop/shoplist";
+    }
+
+    @RequestMapping(value="/shopmanage")
+    public String shopManagement() {
+        return "shop/shopmanage";
     }
 }

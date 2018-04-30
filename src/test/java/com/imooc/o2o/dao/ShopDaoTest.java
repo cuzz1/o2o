@@ -10,12 +10,52 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Date;
+import java.util.List;
+import java.util.Locale;
 
 import static org.junit.Assert.assertEquals;
 
 public class ShopDaoTest extends BaseTest {
     @Autowired
     private ShopDao shopDao;
+
+
+    @Test
+    public void testQueryShopList() {
+        Shop shopCondition = new Shop();
+        PersonInfo owner = new PersonInfo();
+
+        owner.setUserId(1L);
+        shopCondition.setOwner(owner);
+        List<Shop> list =shopDao.queryShopList(shopCondition, 0, 5);
+        System.out.println(list.size());
+
+        ShopCategory shopCategory = new ShopCategory();
+        shopCategory.setShopCategoryId(2L);
+        shopCondition.setShopCategory(shopCategory);
+        List<Shop> list2 =shopDao.queryShopList(shopCondition, 0, 5);
+        System.out.println(list2.size());
+
+    }
+
+    @Test
+    public void testQueryShopCount() {
+        Shop shopCondition = new Shop();
+        PersonInfo owner = new PersonInfo();
+        owner.setUserId(1L);
+        shopCondition.setOwner(owner);
+        int count =shopDao.queryShopCount(shopCondition);
+        System.out.println(count);
+    }
+
+    @Test
+    @Ignore
+    public void testQueryByShopId() {
+        long shopId = 5L;
+        Shop shop = shopDao.queryByShopId(shopId);
+        System.out.println("areaId:" + shop.getArea().getAreaId());
+        System.out.println("areaName:" + shop.getArea().getAreaName());
+    }
 
     @Test
     @Ignore
@@ -44,6 +84,7 @@ public class ShopDaoTest extends BaseTest {
     }
 
     @Test
+    @Ignore
     public void testUpdateShop() {
         Shop shop = new Shop();
         shop.setShopId(5L);
