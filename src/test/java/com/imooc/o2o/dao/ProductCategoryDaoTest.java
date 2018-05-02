@@ -25,6 +25,7 @@ public class ProductCategoryDaoTest extends BaseTest {
     }
 
     @Test
+    @Ignore
     public void testBatchInsertProductCategory() {
         ProductCategory productCategory = new ProductCategory();
         productCategory.setProductCategoryName("商铺类别1");
@@ -44,5 +45,11 @@ public class ProductCategoryDaoTest extends BaseTest {
 
         int effectedNum = productCategoryDao.batchInsertProductCategory(productCategoryList);
         assertEquals(2, effectedNum);
+    }
+
+    @Test
+    public void testCDeleteProductCategory() throws Exception {
+        int effectedNum = productCategoryDao.deleteProductCategory(13, 5);
+        assertEquals(1, effectedNum);
     }
 }
