@@ -2,7 +2,7 @@ package com.imooc.o2o.web.shopadmin;
 
 import com.imooc.o2o.dto.ProductCategoryExecution;
 import com.imooc.o2o.dto.Result;
-import com.imooc.o2o.enmus.ProductCategoryStateEnum;
+import com.imooc.o2o.enums.ProductCategoryStateEnum;
 import com.imooc.o2o.entity.ProductCategory;
 import com.imooc.o2o.entity.Shop;
 import com.imooc.o2o.exceptiopns.ProductCategoryOperationException;

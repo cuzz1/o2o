@@ -2,7 +2,7 @@ package com.imooc.o2o.service.impl;
 
 import com.imooc.o2o.dao.ShopDao;
 import com.imooc.o2o.dto.ShopExecution;
-import com.imooc.o2o.enmus.ShopStateEnum;
+import com.imooc.o2o.enums.ShopStateEnum;
 import com.imooc.o2o.entity.Shop;
 import com.imooc.o2o.exceptiopns.ShopOperationException;
 import com.imooc.o2o.service.ShopService;
@@ -12,9 +12,7 @@ import com.imooc.o2o.util.PathUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
-import java.io.File;
 import java.io.InputStream;
 import java.util.Date;
 import java.util.List;

@@ -22,6 +22,7 @@ public class ImageUtil {
     public static String generateThumbnail(InputStream thumbnail,String fileName, String targetAddr) {
         // 获取图片的随机图片名
         String realFileName = getRandomFileName();
+
         // 获取图片的拓展名
         String extension = getFileExtension(fileName);
         makeDirPath(targetAddr);
@@ -34,6 +35,23 @@ public class ImageUtil {
         }
         return relativeAddr;
     }
+
+    public static String generateNormalImg(InputStream thumbnail,String fileName, String targetAddr) {
+        // 获取图片的随机图片名
+        String realFileName = getRandomFileName();
+        // 获取图片的拓展名
+        String extension = getFileExtension(fileName);
+        makeDirPath(targetAddr);
+        String relativeAddr = targetAddr + realFileName + extension;
+        File dest = new File(getImgBasePath() + relativeAddr);
+        try {
+            Thumbnails.of(thumbnail).size(337, 640).outputQuality(0.25f).toFile(dest);
+        } catch (IOException e) {
+            throw new RuntimeException("创建图片失败：" + e.toString());
+        }
+        return relativeAddr;
+    }
+
 
     /**
      * 创建路径  /home/work/cuzz/xx.jpg

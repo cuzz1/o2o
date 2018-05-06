@@ -2,7 +2,7 @@ package com.imooc.o2o.web.shopadmin;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.imooc.o2o.dto.ShopExecution;
-import com.imooc.o2o.enmus.ShopStateEnum;
+import com.imooc.o2o.enums.ShopStateEnum;
 import com.imooc.o2o.entity.Area;
 import com.imooc.o2o.entity.PersonInfo;
 import com.imooc.o2o.entity.Shop;

@@ -1,4 +1,4 @@
-package com.imooc.o2o.enmus;
+package com.imooc.o2o.enums;
 
 public enum ShopStateEnum {
     CHECK(0,"审核中"),
