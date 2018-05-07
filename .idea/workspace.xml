@@ -7,48 +7,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff17b37f-0be0-4ada-975d-9bd07d2101c6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/HeadLineDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/HeadLineService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/getHeadLineList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/FrontendAdminController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/MainPageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/HeadLineDao.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412084963546.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412103275926.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412111519918.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412171516564.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412171614344.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412194342600.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412194378975.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412204092930.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412204098234.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412222176144.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412222296373.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412243722645.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412243876965.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412251535214.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412303154232.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050412303288164.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050510371142979.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/upload/item/shop/4/2018050510371238931.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/HeadLineDaoTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShopCategoryDao.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/images/right.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopCategoryDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/imooc/o2o/dao/ShopCategoryDaoTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/o2o/util/PathUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/imooc/o2o/util/PathUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/ShopCategoryDao.xml" />
-      <change beforePath="$PROJECT_DIR$/target/o2o.war" afterPath="$PROJECT_DIR$/target/o2o.war" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/dao/ShopCategoryDaoTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/util/PathUtil.class" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/util/PathUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mapper/ShopCategoryDao.xml" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/resources/images/right.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/resources/js/frontend/index.js" afterPath="$PROJECT_DIR$/target/o2o/resources/js/frontend/index.js" />
-    </list>
+    <list default="true" id="ff17b37f-0be0-4ada-975d-9bd07d2101c6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,16 +104,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrontendAdminController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FrontendAdminController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/FrontendAdminController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#386#387#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopedit.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/shop/shopmanage.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/shop/shopmanage.js" />
@@ -252,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PathUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/frontend/index.js" />
+        <option value="$PROJECT_DIR$/target/README.md" />
       </list>
     </option>
   </component>
@@ -276,8 +248,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="7" />
+    <option name="x" value="123" />
     <option name="width" value="1313" />
     <option name="height" value="693" />
   </component>
@@ -311,141 +282,6 @@
               <item name="project2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="o2o" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -465,9 +301,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\java\project2" />
+      <recent name="F:\java\project2\src" />
       <recent name="F:\java\project2\src\main\webapp\resources" />
       <recent name="F:\java\project2\src\main\webapp\resources\js\shop" />
-      <recent name="F:\java\project2\src" />
       <recent name="F:\java\project2\src\main" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -981,7 +818,7 @@
       <workItem from="1525405375298" duration="3462000" />
       <workItem from="1525484132393" duration="14280000" />
       <workItem from="1525568093799" duration="17190000" />
-      <workItem from="1525673988713" duration="11257000" />
+      <workItem from="1525673988713" duration="11929000" />
     </task>
     <servers />
   </component>
@@ -1018,11 +855,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223117000" />
+    <option name="totallyTimeSpent" value="223789000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="7" width="1313" height="693" extended-state="0" />
-    <editor active="true" />
+    <frame x="123" y="0" width="1313" height="693" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25622776" sideWeight="0.1483932" order="7" side_tool="true" content_ui="tabs" />
@@ -1045,7 +881,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.69529986" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11831442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33279613" sideWeight="0.8492063" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33279613" sideWeight="0.8492063" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33279613" sideWeight="0.15079366" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1138,13 +974,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/dto/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/shopadmin/ShopManagementController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1386">
@@ -1566,12 +1395,23 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/web/frontend/FrontendAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#386#387#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
