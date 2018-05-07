@@ -3,7 +3,9 @@ package com.imooc.o2o.dao;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Date;
+import java.util.List;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -15,6 +17,7 @@ public class ShopCategoryDaoTest extends BaseTest {
 	private ShopCategoryDao shopCategoryDao;
 
 	@Test
+	@Ignore
 	public void testAInsertShopCategory() throws Exception {
 		ShopCategory shopCategory = new ShopCategory();
 		shopCategory.setShopCategoryName("店铺类别1");
@@ -27,20 +30,11 @@ public class ShopCategoryDaoTest extends BaseTest {
 		assertEquals(1, effectedNum);
 	}
 
-//	public void testBQueryShopCategory() throws Exception {
-//		ShopCategory sc = new ShopCategory();
-//		List<ShopCategory> shopCategoryList = shopCategoryDao
-//				.queryShopCategory(sc);
-//		assertEquals(3, shopCategoryList.size());
-//		sc.setParentId(1L);
-//		shopCategoryList = shopCategoryDao.queryShopCategory(sc);
-//		assertEquals(1, shopCategoryList.size());
-//		sc.setParentId(null);
-//		sc.setShopCategoryId(0L);
-//		shopCategoryList = shopCategoryDao.queryShopCategory(sc);
-//		assertEquals(2, shopCategoryList.size());
-//
-//	}
+	@Test
+	public void testBQueryShopCategory() throws Exception {
+		List<ShopCategory> shopCategoryList = shopCategoryDao.queryShopCategory(null);
+		System.out.println(shopCategoryList.size());
+	}
 
 	public void testCUpdateShopCategory() throws Exception {
 		ShopCategory shopCategory = new ShopCategory();

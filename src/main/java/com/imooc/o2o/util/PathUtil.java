@@ -9,7 +9,8 @@ public class PathUtil {
         String os = System.getProperty("os.name");
         String basePath = "";
         if (os.toLowerCase().startsWith("win")) {
-            basePath = "F:/project/image";
+//            basePath = "F:/project/image";
+            basePath = "F:/java/project2/src/main/webapp/resources";
         } else {
             basePath =  "home/cuzz/image";
         }

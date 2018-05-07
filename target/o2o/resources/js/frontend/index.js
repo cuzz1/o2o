@@ -1,5 +1,5 @@
 $(function() {
-    var url = '/myo2o/frontend/listmainpageinfo';
+    var url = '/project2/frontend/listmainpageinfo';
 
     $.getJSON(url, function (data) {
         if (data.success) {
@@ -8,7 +8,7 @@ $(function() {
             headLineList.map(function (item, index) {
                 swiperHtml += ''
                             + '<div class="swiper-slide img-wrap">'
-                            +      '<img class="banner-img" src="'+ item.lineImg +'" alt="'+ item.lineName +'">'
+                            +      '<img class="banner-img" src="' + '/resources' + item.lineImg +'" alt="'+ item.lineName +'">'
                             + '</div>';
             });
             $('.swiper-wrapper').html(swiperHtml);
@@ -26,7 +26,7 @@ $(function() {
                              +          '<p class="shop-desc">'+ item.shopCategoryDesc +'</p>'
                              +      '</div>'
                              +      '<div class="shop-classify-img-warp">'
-                             +          '<img class="shop-img" src="'+ item.shopCategoryImg +'">'
+                             +          '<img class="shop-img" src="'+ '/resources' + item.shopCategoryImg +'">'
                              +      '</div>'
                              +  '</div>';
             });
@@ -40,7 +40,7 @@ $(function() {
 
     $('.row').on('click', '.shop-classify', function (e) {
         var shopCategoryId = e.currentTarget.dataset.category;
-        var newUrl = '/myo2o/frontend/shoplist?parentId=' + shopCategoryId;
+        var newUrl = '/project2/frontend/shoplist?parentId=' + shopCategoryId;
         window.location.href = newUrl;
     });
 
