@@ -25,7 +25,7 @@
             <id column="shop_category_id" property="shopCategoryId"/>
             <result column="shop_category_name" property="shopCategoryName"/>
         </association>
-        <association property="owner" column="user_id" javaType="com.imooc.o2o.entity.PersonInfo">
+        <association column="user_id" property="owner" javaType="com.imooc.o2o.entity.PersonInfo">
             <id column="user_id" property="userId"/>
             <result column="name" property="name"/>
         </association>
@@ -117,6 +117,18 @@
 		<where>
             <if test="shopCondition.shopCategory != null and shopCondition.shopCategory.shopCategoryId != null">
                 AND s.shop_category_id = #{shopCondition.shopCategory.shopCategoryId}
+            </if>
+            <if test="shopCondition.shopCategory != null
+                     and shopCondition.shopCategory.parent != null
+                     and shopCondition.shopCategory.parent.shopCategoryId != null">
+               AND s.shop_category_id IN (
+                SELECT
+                shop_category_id
+                FROM
+                tb_shop_category
+                WHERE
+                parent_id = #{shopCondition.shopCategory.parent.shopCategoryId}
+                )
             </if>
             <if test="shopCondition.area != null and shopCondition.area.areaId != null">
                 AND s.shop_area_id = #{shopCondition.areaId}

@@ -3,14 +3,14 @@ $(function() {
 	var maxItems = 20;
 	var pageSize = 10;
 
-	var listUrl = '/myo2o/frontend/listproductsbyshop';
+	var listUrl = '/project2/frontend/listproductsbyshop';
 
 	var pageNum = 1;
 	var shopId = getQueryString('shopId');
 	var productCategoryId = '';
 	var productName = '';
 
-	var searchDivUrl = '/myo2o/frontend/listshopdetailpageinfo?shopId='
+	var searchDivUrl = '/project2/frontend/listshopdetailpageinfo?shopId='
 			+ shopId;
 
 	function getSearchDivData() {
@@ -21,7 +21,7 @@ $(function() {
 						function(data) {
 							if (data.success) {
 								var shop = data.shop;
-								$('#shop-cover-pic').attr('src', shop.shopImg);
+								$('#shop-cover-pic').attr('src', "/resources" + shop.shopImg);
 								$('#shop-update-time').html(
 										new Date(shop.lastEditTime)
 												.Format("yyyy-MM-dd"));
@@ -64,7 +64,7 @@ $(function() {
 							+ '<div class="list-block media-list">' + '<ul>'
 							+ '<li class="item-content">'
 							+ '<div class="item-media">' + '<img src="'
-							+ item.imgAddr + '" width="44">' + '</div>'
+							+ '/resources' + item.imgAddr + '" width="44">' + '</div>'
 							+ '<div class="item-inner">'
 							+ '<div class="item-subtitle">' + item.productDesc
 							+ '</div>' + '</div>' + '</li>' + '</ul>'
@@ -122,7 +122,7 @@ $(function() {
 					'.card',
 					function(e) {
 						var productId = e.currentTarget.dataset.productId;
-						window.location.href = '/myo2o/frontend/productdetail?productId='
+						window.location.href = '/project2/frontend/productdetail?productId='
 								+ productId;
 					});
 

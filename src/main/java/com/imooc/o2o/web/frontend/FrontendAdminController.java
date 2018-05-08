@@ -12,4 +12,16 @@ public class FrontendAdminController {
     private String index() {
         return "frontend/index";
     }
+
+    @RequestMapping(value = "shoplist", method = RequestMethod.GET)
+    private String shopList() {
+        return "frontend/shoplist";
+    }
+
+    @RequestMapping(value = "shopdetail", method = RequestMethod.GET)
+    private String shopDetail() {
+        return "frontend/shopdetail";
+    }
+
+
 }

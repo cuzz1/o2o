@@ -2,8 +2,8 @@ $(function() {
 	var loading = false;
 	var maxItems = 999;
 	var pageSize = 10;
-	var listUrl = '/myo2o/frontend/listshops';
-	var searchDivUrl = '/myo2o/frontend/listshopspageinfo';
+	var listUrl = '/project2/frontend/listshop';
+	var searchDivUrl = '/project2/frontend/listshoppageinfo';
 	var pageNum = 1;
 	var parentId = getQueryString('parentId');
 	var areaId = '';
@@ -60,7 +60,7 @@ $(function() {
 							+ '<div class="list-block media-list">' + '<ul>'
 							+ '<li class="item-content">'
 							+ '<div class="item-media">' + '<img src="'
-							+ item.shopImg + '" width="44">' + '</div>'
+							+ '/resources'+ item.shopImg + '" width="44">' + '</div>'
 							+ '<div class="item-inner">'
 							+ '<div class="item-subtitle">' + item.shopDesc
 							+ '</div>' + '</div>' + '</li>' + '</ul>'
@@ -95,7 +95,7 @@ $(function() {
 
 	$('.shop-list').on('click', '.card', function(e) {
 		var shopId = e.currentTarget.dataset.shopId;
-		window.location.href = '/myo2o/frontend/shopdetail?shopId=' + shopId;
+		window.location.href = '/project2/frontend/shopdetail?shopId=' + shopId;
 	});
 
 	$('#shoplist-search-div').on(
